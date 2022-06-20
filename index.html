@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="images/logo.svg" alt="head" class="headimage">
-        <nav><button>Try It Free</button></nav>
+    <header class="navigation">
+        <img src="images/logo.svg" alt="logo" class=logo-image">
+        <nav class="nav-btn">
+            <button>Try It Free</button>
+        </nav>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="Hero">
+            <div class="Hero-section">
                 <h1>Build The Community Your Fans Will Love</h1>
                 <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with your users as you engage in genuine discussion</p>
                 <button>Get Started For Free</button>
@@ -23,70 +29,108 @@
                 <img src="images/illustration-mockups.svg" alt="first image">
             </figure>
         </section>
-        <section>
-            <div>
-                <h2>Grow Together</h2>
-                <p>Generate meaningful discussion with your audience and build a strong loyal community. Think of the insightful conversation you miss out on with a feedback form</p>
+        <section class="section-2">
+            <div class="division">
+                <div class="text-section">
+                    <h3>Grow Together</h3>
+                    <p>Generate meaningful discussion with your audience and build a strong loyal community. Think of the insightful conversation you miss out on with a feedback form</p>
+                </div>
                 <figure>
                     <img src="images/illustration-grow-together.svg" alt="second image" sizes="">
                 </figure>
             </div>
-            <div>
-                <h2>Flowing Conversations</h2>
-                <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </section>
+        <section  class="section-2">
+            <div class="division reverse" >
+                <div class="text-section">
+                    <h3>Flowing Conversations</h3>
+                    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+                </div>
                 <figure>
                     <img src="images/illustration-flowing-conversation.svg" alt="third image">
                 </figure>
             </div>
-            <div>
-                <h2>Your Users</h2>
-                <p>it takes no time at all to integrate Huddle with your app's authentication solution. this means, once signed in to yoiur app, your user can start chatting immediately.</p>
-                <img src="" alt="">
-            </div>
         </section>
+        <section  class="section-2">
+            <div class="division">
+                <div class="text-section">
+                    <h3>Your Users</h3>
+                    <p>it takes no time at all to integrate Huddle with your app's authentication solution. this means, once signed in to yoiur app, your user can start chatting immediately.</p>
+                </div>
+               <figure>
+                 <img src="images/illustration-your-users.svg" alt="fourth image">
+               </figure>
+            </div>
+        </section>   
+           
         <article>
-            <h2>Ready To Build Your Coummunity</h2>
-            <button type="button"> Get Started For Free</button>
+            <div class="card">
+                <h2>Ready To Build Your Coummunity</h2>
+                <button type="button"> Get Started For Free</button>
+            </div>
         </article>
+            
     </main>
-    <footer>
-        <div>
-             <figure>
-                <img src="images/logo.svg"  alt="Huddle">
-            </figure>
-            <img src="" alt="location">
-            <p id="lore">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rem reprehenderit, eveniet maiores ducimus possimus praesentium dolore in assumenda perferendis! Expedita ea voluptate obcaecati asperiores incidunt reprehenderit laudantium, cumque maxime?</p>
-            <label for="phone"><img src="" alt="phone"></label>
-            <p id="phone">+1-543-123-4567</p>
-            <label for="email"><img src="" alt="email"></label>
-            <p id="email">example@huddle.com</p>
+    <footer class="footer">
+
+
+
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="logo">
         </div>
-        <div>
+        <div class="footer-inner">
+    
+          <div class="contact">
+            <div class="location">
+              <img src="images/icon-location.svg" alt="location">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+            </div>
+    
+            <div class="phone">
+              <img src="images/icon-phone.svg" alt="phone">
+              <p>+1-543-123-4567</p>
+            </div>
+    
+            <div class="email">
+              <img src="images/icon-email.svg" alt="email">
+              <p>example@huddle.com</p>
+            </div>
+          </div>
+    
+    
+    
+          <div class="about-us">
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">What We Do</a></li>
-                <li><a href="#">FAQ</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+    
             </ul>
-        </div>
-        <div>
-             <ul>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
+          </div>
+    
+          <div class="what-we">
+            <ul>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact Us</a></li>
             </ul>
+          </div>
+    
+          <div class="social-media">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+          </div>
         </div>
-        <div>
-               <ul>
-                <li><a href="#"><img src="" alt="Facebook" sizes=""></a></li>
-                <li><a href="#"><img src="" alt="Twitter" sizes=""></a></li>
-                <li><a href="#"><img src="" alt="Instagram" sizes=""></a></li>
-            </ul>
-        </div>
-        <div>
-            <span>
-                Copyright 2018 Huddle.All right reserved
-            </span>
-        </div>
-    </footer>
+    
+        <p class="copyright">
+          Copyright 2018 Hudda. All rights reserved
+        </p>
+        <!-- </div> -->
+      </footer>
+    
+  
 </body>
 </html>
